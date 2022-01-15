@@ -4,31 +4,75 @@
         <title> Página de exemplo</title>
             <meta charset="utf-8">
             <link rel="stylesheet" type="text/css" href="bootstrap-dio/css/bootstrap.min.css">
-            <link rel="stylesheet" type="text/css" href="css/style">
+            <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar navbar-expan-lg navbar-light">
-                <img src="img/gato.jpg" width="250" height="200">
+        <nav class="navbar navbar-expand-lg navbar-light margin">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.jpeg" class="rounded-circle" width="170" height="125">
             </a>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#"> Quem eu sou?</a>
+                        <a class="nav-link" href="#quemsomos"> Quem somos?</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"> Contato para trabalho</a>
+                        <a class="nav-link" href="#serviços"> Serviços</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"> Parcerias realizadas</a>
+                        <a class="nav-link" href="#parceiros"> Parceiros</a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <section id="quemeusou">
-            <div class="container-fluid quem-sou text-center margin">
-                <p>Testando</p>
+        <section id="quemsomos">
+            <div class="container-fluid quemsomos text-center margin">
+                <h3 class="margin">Quem somos?</h3>
+                <img src="img/trab1.jpeg" class="rounded-circle" width="170" height="125">
+                <img src="img/trab2.jpeg" class="rounded-circle" width="170" height="125">
+                <img src="img/trab3.jpeg" class="rounded-circle" width="170" height="125">
+                <h4 class="margin">Somos uma equipe que se desafia e acredita que o céu não é o limite!</h4>
             </div>
         </section>
+        <selection id="serviços">
+        <div class="container-fluid text-center margin serviços">
+            <h4 class="margin">Serviços</h4>
+            <div class="container-fluid text-center margin serviços">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <img src="img/serv1.jpeg" width="100%">
+                    </div>
+                    <div class="col-lg-6">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                        <img src="img/serv2.jpeg" width="100%">
+                    </div>
+                </div>
+            </div>
+        </selection>
+        <section id="parceiros">
+           <div class="container-fluid text-center margin parceiros">
+               <h3 class="margin">Parceiros</h3>
+               <div class="container">
+                   <div class="row">
+                       <div class="col-lg-4">
+                           <img src="img/dio.jpg" width="100%">
+                       </div>
+                       <div class="col-lg-4">
+                        <img src="img/dio.jpg" width="100%">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="img/dio.jpg" width="100%">
+                    </div>
+               </div>
+           </div>
+        </section>
+        <footer class="container-fluid text-center bg-footer margin">
+            <p>Contato</p>
+            <a href="https://www.linkedin.com/in/ludmilla-de-souza-bb54571b3/" target="_blank"><p>LinkedIn:</p>
+            </a>
+            <a href="https://github.com/MillaSouza" target="_blank"><p>GitHub:</p>
+            </a>
+        </footer>
     </body>
 </html>
